@@ -124,6 +124,7 @@ app.service('mainService', function($http, $q) {
       deferred.resolve(parsedResponse)
     })
     return deferred.promise;
+    
   }
 });
 ```
